@@ -9,7 +9,7 @@ const connnectToMongo = async ()=> {
         .then(() =>{
             console.log("connected to server ")
         })
-        .catch((err)=>{ console.log("database error occured")})
+        .catch((err)=>{ console.log("database error occured ")})
     }
 
 module.exports = connnectToMongo;
